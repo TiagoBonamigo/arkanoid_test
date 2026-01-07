@@ -23,7 +23,9 @@
 | TASK-021 | dev5 | Audio Manager |
 
 ### In Progress
-*No tasks currently in progress*
+| Task | Assignee | Description |
+|------|----------|-------------|
+| TASK-021 | dev5 | Audio Manager |
 
 ### Awaiting Review
 *No tasks awaiting review*
@@ -89,10 +91,22 @@ Tasks: 019-024
 - **Notes**: Waiting for TASK-001 (Project Setup) to be completed by dev1
 
 ### dev3
-*No updates yet*
+- **Current Task**: TASK-005 (Entity Base Class)
+- **Branch**: main
+- **Status**: blocked
+- **Last Update**: 2026-01-07
+- **Notes**: Waiting on TASK-002 (Core Scene - dev1) and TASK-003 (Constants & Types - dev2) to be completed before I can start
 
 ### dev4
-*No updates yet*
+- **Current Task**: TASK-008 Event System
+- **Branch**: feature/dev4-task-008-events
+- **Status**: working
+- **Last Update**: 2026-01-07
+- **Notes**: Starting implementation of EventBus
 
 ### dev5
-*No updates yet*
+- **Current Task**: TASK-021 Audio Manager
+- **Branch**: feature/dev5-task-021-audio
+- **Status**: working
+- **Last Update**: 2026-01-07
+- **Notes**: Starting implementation of Audio Manager with Howler.js

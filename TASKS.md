@@ -221,7 +221,7 @@ Create the ball entity with physics movement. The ball should move based on velo
 
 ## TASK-008: Event System
 - **Assigned to**: dev4
-- **Status**: pending
+- **Status**: in-progress
 - **Branch**: feature/task-008-events
 - **Priority**: high
 - **Dependencies**: TASK-003
@@ -623,7 +623,7 @@ Implement the actual effects of each power-up type when collected.
 
 ## TASK-021: Audio Manager
 - **Assigned to**: dev5
-- **Status**: pending
+- **Status**: in-progress
 - **Branch**: feature/task-021-audio
 - **Priority**: low
 - **Dependencies**: TASK-001
@@ -752,7 +752,7 @@ Final integration testing, bug fixes, and polish. Ensure all systems work togeth
 | 005 | Entity Base | dev3 | high | pending |
 | 006 | Paddle Entity | dev3 | high | pending |
 | 007 | Ball Entity | dev4 | high | pending |
-| 008 | Event System | dev4 | high | pending |
+| 008 | Event System | dev4 | high | in-progress |
 | 009 | Brick Entity | dev5 | high | pending |
 | 010 | Brick Grid | dev5 | high | pending |
 | 011 | Collision System | dev1 | high | pending |
@@ -765,7 +765,7 @@ Final integration testing, bug fixes, and polish. Ensure all systems work togeth
 | 018 | Pause Screen | dev2 | medium | pending |
 | 019 | Power-Up Base | dev1 | medium | pending |
 | 020 | Power-Up Effects | dev2 | medium | pending |
-| 021 | Audio Manager | dev5 | low | pending |
+| 021 | Audio Manager | dev5 | low | in-progress |
 | 022 | Particle Effects | dev3 | low | pending |
 | 023 | Screen Shake | dev4 | low | pending |
 | 024 | Final Polish | unassigned | low | pending |
