@@ -221,7 +221,7 @@ Create the ball entity with physics movement. The ball should move based on velo
 
 ## TASK-008: Event System
 - **Assigned to**: dev4
-- **Status**: pending
+- **Status**: in-progress
 - **Branch**: feature/task-008-events
 - **Priority**: high
 - **Dependencies**: TASK-003
@@ -752,7 +752,7 @@ Final integration testing, bug fixes, and polish. Ensure all systems work togeth
 | 005 | Entity Base | dev3 | high | pending |
 | 006 | Paddle Entity | dev3 | high | pending |
 | 007 | Ball Entity | dev4 | high | pending |
-| 008 | Event System | dev4 | high | pending |
+| 008 | Event System | dev4 | high | in-progress |
 | 009 | Brick Entity | dev5 | high | pending |
 | 010 | Brick Grid | dev5 | high | pending |
 | 011 | Collision System | dev1 | high | pending |

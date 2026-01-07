@@ -92,7 +92,11 @@ Tasks: 019-024
 *No updates yet*
 
 ### dev4
-*No updates yet*
+- **Current Task**: TASK-008 Event System
+- **Branch**: feature/dev4-task-008-events
+- **Status**: working
+- **Last Update**: 2026-01-07
+- **Notes**: Starting implementation of EventBus
 
 ### dev5
 *No updates yet*
