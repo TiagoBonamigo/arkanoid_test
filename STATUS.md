@@ -23,7 +23,9 @@
 | TASK-021 | dev5 | Audio Manager |
 
 ### In Progress
-*No tasks currently in progress*
+| Task | Assignee | Description |
+|------|----------|-------------|
+| TASK-021 | dev5 | Audio Manager |
 
 ### Awaiting Review
 *No tasks awaiting review*
@@ -95,4 +97,8 @@ Tasks: 019-024
 *No updates yet*
 
 ### dev5
-*No updates yet*
+- **Current Task**: TASK-021 Audio Manager
+- **Branch**: feature/dev5-task-021-audio
+- **Status**: working
+- **Last Update**: 2026-01-07
+- **Notes**: Starting implementation of Audio Manager with Howler.js
