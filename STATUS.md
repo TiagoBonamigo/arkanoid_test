@@ -82,11 +82,11 @@ Tasks: 019-024
 *No updates yet*
 
 ### dev2
-- **Current Task**: Waiting for assignment
+- **Current Task**: TASK-003 (Constants & Types), TASK-004 (Input Manager)
 - **Branch**: main
-- **Status**: idle
+- **Status**: blocked
 - **Last Update**: 2026-01-07
-- **Notes**: Ready for new tasks
+- **Notes**: Waiting for TASK-001 (Project Setup) to be completed by dev1
 
 ### dev3
 *No updates yet*
