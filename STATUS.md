@@ -91,7 +91,11 @@ Tasks: 019-024
 - **Notes**: Ready for new tasks
 
 ### dev3
-*No updates yet*
+- **Current Task**: TASK-005 (Entity Base Class)
+- **Branch**: main
+- **Status**: blocked
+- **Last Update**: 2026-01-07
+- **Notes**: Waiting on TASK-002 (Core Scene - dev1) and TASK-003 (Constants & Types - dev2) to be completed before I can start
 
 ### dev4
 - **Current Task**: TASK-008 Event System
