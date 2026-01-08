@@ -1,7 +1,10 @@
-import * as THREE from 'three';
+import { Game } from './Game';
 
-// Verify Three.js is properly imported
-console.log('Arkanoid Clone initializing...');
-console.log('Three.js version:', THREE.REVISION);
+// Initialize the game when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    const game = new Game('game-container');
+    game.start();
 
-// Game will be initialized here
+    // Expose game instance for debugging (remove in production)
+    (window as unknown as { game: Game }).game = game;
+});
