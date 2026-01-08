@@ -5,7 +5,7 @@
 - **Workspace**: dev2/
 
 ## Current Task
-Waiting for dependencies
+Waiting for TASK-001 merge
 
 ## Branch
 N/A
@@ -14,22 +14,22 @@ N/A
 blocked
 
 ## Last Updated
-2026-01-07 18:10:00
+2026-01-07 19:10:00
 
 ## Progress Log
 | Time | Action |
 |------|--------|
 | 18:05 | Initialized workspace |
-| 18:10 | Checked tasks - blocked waiting for TASK-001 (Project Setup) |
+| 18:10 | Checked tasks - blocked waiting for TASK-001 |
+| 19:10 | Tasks reorganized. TASK-001 complete on feature branch, awaiting merge |
 
 ## Blockers / Questions
-- **TASK-003** (Constants & Types) - blocked by TASK-001 (dev1 - pending)
-- **TASK-004** (Input Manager) - blocked by TASK-001 (dev1 - pending)
-- **TASK-012** (Game State) - blocked by TASK-008 (dev4 - in-progress)
-- **TASK-018** (Pause Screen) - blocked by TASK-012
-- **TASK-020** (Power-Up Effects) - blocked by TASK-019
+- **TASK-004** (Paddle Entity) - blocked by TASK-001 (dev1 - complete on branch, awaiting merge)
+- **TASK-005** (Ball Entity) - blocked by TASK-004
+- **TASK-006** (Brick Entity) - blocked by TASK-004
+- **TASK-015** (Level Data System) - blocked by TASK-006
 
-**Ready to start TASK-003 and TASK-004 as soon as TASK-001 is complete.**
+**Ready to start TASK-004 immediately once TASK-001 is merged to main.**
 
 ## Completed Tasks
 *None yet*
