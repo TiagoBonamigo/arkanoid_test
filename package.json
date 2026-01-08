@@ -1,0 +1,22 @@
+{
+  "name": "arkanoid-clone",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A clone of the game Arkanoid, developed in Three.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "howler": "^2.2.4",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.12",
+    "@types/three": "^0.170.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.6"
+  }
+}
