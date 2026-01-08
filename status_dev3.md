@@ -5,29 +5,42 @@
 - **Workspace**: dev3/
 
 ## Current Task
-TASK-005: Entity Base Class
+TASK-007: Collision Detection System
 
 ## Branch
-N/A (waiting for dependencies)
+N/A (waiting for TASK-001)
 
 ## Status
 blocked
 
 ## Last Updated
-2026-01-07 18:10:00
+2026-01-07 19:10:00
 
 ## Progress Log
 | Time | Action |
 |------|--------|
 | 18:05 | Initialized workspace |
-| 18:10 | Checked tasks.md - assigned TASK-005, TASK-006, TASK-013, TASK-014, TASK-022 |
-| 18:10 | TASK-005 blocked - waiting for TASK-002 (dev1) and TASK-003 (dev2) |
+| 18:10 | Checked tasks.md - original assignments noted |
+| 19:10 | Tasks reorganized - now assigned TASK-007, TASK-008 (Physics specialty) |
+| 19:10 | Only waiting on TASK-001 to start |
 
 ## Blockers / Questions
-- **BLOCKED**: Cannot start TASK-005 (Entity Base Class) until dependencies complete:
-  - TASK-002 (Core Scene Setup) - assigned to dev1 - status: pending
-  - TASK-003 (Constants and Types Foundation) - assigned to dev2 - status: pending
-- Waiting for dev1 and dev2 to complete their foundational tasks
+- **BLOCKED**: Cannot start TASK-007 until TASK-001 (Project Setup) is complete
+- Waiting for dev1 to finish TASK-001
+
+## Ready to Implement
+Once TASK-001 is complete, I will implement:
+1. **TASK-007**: Collision Detection System
+   - AABB collision detection
+   - Circle-Rectangle collision
+   - Collision response (reflection angles)
+   - CollisionSystem class
+   - Files: src/systems/CollisionUtils.ts, src/systems/CollisionSystem.ts
+
+2. **TASK-008**: Physics System (after TASK-007)
+   - PhysicsSystem class
+   - Wall collisions, ball-paddle, ball-brick
+   - Files: src/systems/PhysicsSystem.ts
 
 ## Completed Tasks
 *None yet*
@@ -35,8 +48,5 @@ blocked
 ## My Assigned Tasks
 | Task ID | Name | Priority | Dependencies | Status |
 |---------|------|----------|--------------|--------|
-| TASK-005 | Entity Base Class | high | TASK-002, TASK-003 | blocked |
-| TASK-006 | Paddle Entity | high | TASK-005, TASK-004 | pending |
-| TASK-013 | HUD Display | medium | TASK-012 | pending |
-| TASK-014 | Start Screen | medium | TASK-012 | pending |
-| TASK-022 | Particle Effects | low | TASK-002 | pending |
+| TASK-007 | Collision Detection System | high | TASK-001 | blocked |
+| TASK-008 | Physics System | high | TASK-007 | pending |
